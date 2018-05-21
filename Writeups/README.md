@@ -75,7 +75,11 @@ app.get('/flag', function(req, res) {
 });
 app.listen(31337)
 ```
-UPDATING SOON
+The following condition must be met after the array is sorted. The first element in the array (after converting into an Integer) must be larger than the second element (after converstion) and the indexes of the element in the original array before and after sorting must be the same. We understand that the browser will take in our GET request as a string and the sorting will be done based on the first character of the string.
+
+To achieve the conditions, we look into the ascii table to find the hexadecimal representation of each number and chose a relatively large number which has hexadecimal starting with 0. We chose 0xA (Decimal 10). ```http://target/flag?third?=0xA&third=1```
+
+CrossCTF{th4t_r0ck3t_1s_hug3}
 
 
 
