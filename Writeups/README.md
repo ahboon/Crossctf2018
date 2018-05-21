@@ -1,5 +1,7 @@
 # Crossctf 2018 Qualifier Writeups (WIP)
 
+Credits to my teammates: https://github.com/tankeehock and https://github.com/tohzijie
+
 ## Web
 QruirkyScript 1 - 5 were do-able by referncing the truthy table from: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Equality_comparisons_and_sameness
 
