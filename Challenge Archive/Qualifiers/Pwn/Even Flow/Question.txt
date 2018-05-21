@@ -1,0 +1,5 @@
+Do you like shell command injection?
+
+nc ctf.pwn.sg 1601
+
+Creator - amon (@nn_amon)

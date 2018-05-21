@@ -1,0 +1,5 @@
+This is an actual baby pwn challenge.
+
+nc ctf.pwn.sg 1500
+
+Creator - amon (@nn_amon)

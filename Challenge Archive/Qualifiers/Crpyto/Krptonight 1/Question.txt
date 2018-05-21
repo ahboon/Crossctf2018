@@ -1,0 +1,5 @@
+I took a walk around the world to ease my troubled mind.
+
+nc ctf.pwn.sg 1502
+
+Creator - amon (@nn_amon)

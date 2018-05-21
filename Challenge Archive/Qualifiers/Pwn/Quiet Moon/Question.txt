@@ -1,0 +1,5 @@
+Do you like vampires?
+
+nc ctf.pwn.sg 2901
+
+Creator - amon (@nn_amon)
