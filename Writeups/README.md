@@ -133,3 +133,12 @@ For this, me and my teammates were not able to explain why our GET request worke
 Therefore, to achieve this, the following get request will fulfill the conditions: ```http://ctf.pwn.sg:8085/flag?fifth=I_AM_ELEET_HAX0R&six=I_AM_ELEET_HAX0R```
 
 CrossCTF{1_am_n1k0las_ray_zhizihizhao}
+
+
+### Babyweb
+
+This was a SQL injection challenge. The script disallowed certain keywords, but this can be overcome by using the /*!KEYWORD*/ method. Example (/*!UNION*/)
+
+
+
+# Crossctf 2018 Finals Writeups (WIP)
