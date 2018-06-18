@@ -137,7 +137,7 @@ CrossCTF{1_am_n1k0las_ray_zhizihizhao}
 
 ### Babyweb
 
-This was a SQL injection challenge. The script disallowed certain keywords, but this can be overcome by using the /*!KEYWORD*/ method. Example (/*!UNION*/)
+This was a SQL injection challenge. The script disallowed certain keywords, but this can be overcome by using the ``/*!KEYWORD*/`` method. Example ``(/*!UNION*/)``
 
 
 
