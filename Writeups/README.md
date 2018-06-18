@@ -176,6 +176,8 @@ CrossCTF{G0C0in_Is_Th3_Nex7_Bi5_Th@ng!}
 To be updated
 
 
+
+
 ### RetroWeb
 The web filters the following, 
 
@@ -210,6 +212,12 @@ CrossCTF{Why_W0uLd_Any0ne_<3_Web?!}
 
 
 
+
+
+
+
+
+
 ### The Terminal 
 There is LFI on the app which allows the disclosure of files.
 ``http://ctf.pwn.sg:4082/file?filename=[file_name]``
@@ -221,7 +229,7 @@ Doing the following reveals great information about what the machones has.
  "HOSTNAME=ca27413396a7 TERM=xterm PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin HOME=/root MAIL=/var/mail/theterminal LOGNAME=theterminal USER=theterminal USERNAME=theterminal SHELL=/bin/sh SUDO_COMMAND=/usr/bin/gunicorn -w 8 -b 0.0.0.0:8082 app:app SUDO_USER=root SUDO_UID=0 SUDO_GID=0 "
 ```
 
-So apparently it runes gunicorn! Out of instinct, I included app.py in the LFI parameter, and I was given the code!
+So apparently it runs gunicorn! Out of instinct, I included app.py in the LFI parameter, and I was given the code!
 
 ```
 "#!/usr/bin/python
