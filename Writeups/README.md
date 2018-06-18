@@ -222,7 +222,7 @@ CrossCTF{Why_W0uLd_Any0ne_<3_Web?!}
 There is LFI on the app which allows the disclosure of files.
 ``http://ctf.pwn.sg:4082/file?filename=[file_name]``
 
-Doing the following reveals great information about what the machones has.
+Doing the following reveals great information about what the machines has.
 ``http://ctf.pwn.sg:4082/file?filename=/proc/self/environ``
 
 ```
