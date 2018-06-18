@@ -189,7 +189,7 @@ $username = mysql_escape_string($username);
 
 ``mysql_rescape_string()`` can be overcome through the use of encoded characters.
 
-The following is he solve script:
+The following is the solve script:
 ```
 import requests
 import binascii
